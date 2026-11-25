@@ -1,0 +1,80 @@
+
+# =========================
+# LARAVEL DEFAULT
+# =========================
+*.log
+.DS_Store
+Thumbs.db
+
+.env
+.env.backup
+.env.production
+.env.*
+!.env.example
+
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+
+/auth.json
+/Homestead.json
+/Homestead.yaml
+
+/_ide_helper.php
+
+/node_modules
+/vendor
+
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+
+/storage/*.key
+/storage/pail
+
+# =========================
+# IDE
+# =========================
+/.idea
+/.nova
+/.vscode
+/.zed
+/.cursor/
+
+# =========================
+# AI AGENTS
+# =========================
+AGENTS.md
+AGENT.md
+agent.md
+CLAUDE.md
+GEMINI.md
+/copilot-instructions.md
+
+/.agents/
+/.claude/
+/.codex/
+/.cursor/
+/.gemini/
+/.opencode/
+/.openclaw/
+
+# =========================
+# AI LOCAL CONFIG
+# =========================
+**/AGENTS.md
+**/CLAUDE.md
+**/GEMINI.md
+
+# =========================
+# DATABASE BACKUPS
+# =========================
+*.sql
+*.sqlite.backup
+*.db.backup
+
+# =========================
+# OS
+# =========================
+desktop.ini
